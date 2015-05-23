@@ -38,6 +38,8 @@ Installation and usage
 You can install the `deb-pkg-tools` package using the following command::
 
     $ pip install deb-pkg-tools
+    
+If your pip (and python) install is provided by `_pyenv`_ then you must do a ``pyenv rehash`` in order for the binaries to appear in your ``$PATH``.
 
 After installation you'll have the ``deb-pkg-tools`` program available::
 
@@ -173,3 +175,4 @@ This software is licensed under the `MIT license`_.
 .. _PyPI: https://pypi.python.org/pypi/deb-pkg-tools
 .. _python-debian: https://pypi.python.org/pypi/python-debian
 .. _Read the Docs: https://deb-pkg-tools.readthedocs.org
+.. _pyenv: https://github.com/yyuu/pyenv
